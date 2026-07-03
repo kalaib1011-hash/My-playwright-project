@@ -15,5 +15,5 @@ await frame.locator('//h3[text()="Database Testing Training"]').click();
 
  await frame.locator('//h3[text()="Manual Testing Training"]').click();
 
-
+//this command line added for testing purpose
 })
