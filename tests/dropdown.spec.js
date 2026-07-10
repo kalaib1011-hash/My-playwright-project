@@ -7,7 +7,7 @@ await page.locator('#simple-dropdown select').selectOption({value:'option3'}); /
 await page.locator('#simple-dropdown select').selectOption({label:'Option 1'}); //by text
 await page.locator('#simple-dropdown select').selectOption({index:1}) //by index
 })
-
+/************added for test purpose*************/
 //Multiselect dropdown
 test('multiselect',async({page})=>{
     await page.goto('https://www.testautomationcentral.com/demo/dropdown.html')
